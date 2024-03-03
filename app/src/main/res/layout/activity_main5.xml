@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/RecipesMainText"
+        android:layout_width="302dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="monospace"
+        android:text="Куриные котлеты в духовке"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/RecipesText"
+        android:layout_width="383dp"
+        android:layout_height="529dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="monospace"
+        android:text="Продукты
+Куриное филе 300 г
+Яйцо крупное (только белок) 1 шт.
+Овсяные хлопья быстрого приготовления - 30 г Лук репчатый 80 г
++
+Масло растительное (для смазывания противня) - 15 мл Соль по вкусу
+1) Духовку разогреваем до 190 градусов. 2) Куриное филе моем, обсушиваем бумажным полотенцем и нарезаем средними кусочками. 3) Репчатый лук очищаем и нарезаем
+средними кусочками.
+4) Делаем фарш из курицы и лука.
+5) Добавляем яичные белок, овсянные хлопья и соль в фарш.
+6) Из фарша формируем небольшие котлеты. 7) Запекаем котлеты около 20 минут. Главное - не пересушить. Как только котлетки станут плотными, и при прокалывании вилкой
+будет выделяться прозрачный сок, вынимаем из духовки."
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

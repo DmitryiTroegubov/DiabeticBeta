@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button">Button</string>
+    <string name="TextView">TextView</string>
+    <string name="diabetic">Diabetic</string>
+    <string name="AvailabaleProducts">Разрешенные Продукты</string>
+    <string name="TypeHere">Пишите здесь</string>
+    <string name="SygarLevel">Дневник уровня сахара</string>
+    <string name="SugarLevel">Дневник уровня сахара</string>
+</resources>
